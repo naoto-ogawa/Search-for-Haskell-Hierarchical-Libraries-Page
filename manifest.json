@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Package search for Haskell Hierarchical Libraries",
+  "name": "Search for Haskell Hierarchical Libraries",
   "version": "0.1",
 
   "description": "a little easier for finding libraries of Haskell Hierarchical Libraries Page.",
