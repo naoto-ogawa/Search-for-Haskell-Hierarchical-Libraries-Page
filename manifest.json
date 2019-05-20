@@ -7,7 +7,10 @@
 
   "content_scripts": [
     {
-      "matches": ["https://downloads.haskell.org/~ghc/*/docs/html/libraries/index.html"],
+      "matches": [
+        "https://downloads.haskell.org/~ghc/*/docs/html/libraries/",
+        "https://downloads.haskell.org/~ghc/*/docs/html/libraries/index.html"
+      ],
       "js": ["HHLE.js"]
     }
   ]
