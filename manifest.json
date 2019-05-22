@@ -12,6 +12,12 @@
         "https://downloads.haskell.org/~ghc/*/docs/html/libraries/index.html"
       ],
       "js": ["HHLE.js"]
+    },
+    {
+      "matches": [
+        "https://downloads.haskell.org/~ghc/*/docs/html/libraries/*"
+      ],
+      "js": ["HHLE2.js"]
     }
   ]
 
