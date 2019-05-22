@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Search for Haskell Hierarchical Libraries",
-  "version": "0.2",
+  "version": "0.2.1",
 
   "description": "a little easier for finding libraries of Haskell Hierarchical Libraries Page.",
 
@@ -15,7 +15,8 @@
     },
     {
       "matches": [
-        "https://downloads.haskell.org/~ghc/*/docs/html/libraries/*"
+        "https://downloads.haskell.org/~ghc/*/docs/html/libraries/*",
+        "https://hackage.haskell.org/package/*/docs/*"
       ],
       "js": ["HHLE2.js"]
     }
