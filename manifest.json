@@ -16,7 +16,7 @@
     {
       "matches": [
         "https://downloads.haskell.org/~ghc/*/docs/html/libraries/*",
-        "https://hackage.haskell.org/package/*/docs/*"
+        "*://hackage.haskell.org/package/*/docs/*"
       ],
       "js": ["HHLE2.js"]
     }
