@@ -24,3 +24,9 @@ document.querySelector('#module-header').addEventListener('click',
 
 // close instances.
 document.querySelectorAll('details').forEach(e => e.removeAttribute('open',''));
+
+//
+document.querySelector('#package-header').addEventListener('click',
+  e => {
+    location.href = window.location.href.substring(0, window.location.href.indexOf('docs'))
+  });
